@@ -1,0 +1,3 @@
+#testFilter=com.dubbo.serverapi.filter.TestFilter
+ConsumerFilter=com.dubbo.serverapi.filter.ConsumerFilter
+ProviderFilter=com.dubbo.serverapi.filter.ProviderFilter
