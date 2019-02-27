@@ -1,0 +1,1 @@
+grouplb=com.dubbo.serverapi.loadbalance.ConsistentHashGroupLoadBalance

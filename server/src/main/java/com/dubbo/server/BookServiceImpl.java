@@ -16,7 +16,7 @@ import com.dubbo.serverapi.bo.BookInfo;
  * @Package com.dubbo.server
  * @create 2018-09-18 21:51
  */
-@Service
+@Service(group="g2", loadbalance = "grouplb")
 public class BookServiceImpl implements BookService {
     @Override
     public BookInfo getById(Integer id) {

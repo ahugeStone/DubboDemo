@@ -26,7 +26,7 @@ import java.util.Map;
 @RequestMapping(path = "/book")
 public class BookController {
 
-    @Reference(check = false)
+    @Reference(check = false, group="*", loadbalance = "grouplb")
     private BookService bookService;
 
     @RequestMapping(path = "/{bookId}", method = {RequestMethod.GET})
