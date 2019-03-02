@@ -1,2 +1,2 @@
-ConsumerFilter=com.dubbo.serverapi.filter.ConsumerFilter
-ProviderFilter=com.dubbo.serverapi.filter.ProviderFilter
+#ConsumerFilter=com.dubbo.serverapi.filter.ConsumerFilter
+#ProviderFilter=com.dubbo.serverapi.filter.ProviderFilter
